@@ -15,5 +15,10 @@ $(function () {
   $('body').toggleClass('nav-open');
   $('header .navbar').fadeToggle(200);
     });
+
+  $("header li a").click(function(){
+  $('body').toggleClass('nav-open');
+  $('header .navbar').fadeToggle(200);
+    });
   }
-}); 
+});
